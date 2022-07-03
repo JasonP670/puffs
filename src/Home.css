@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster+Two&display=swap');
+h2 {
+  font-size: 3rem;
+  font-family: 'Fredoka One', cursive;
+}
+
+#hero-img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: 0 70%;
+}
+
+img {
+  /* border-radius: 10px; */
+}
+
+.hero {
+  background-color: rgb(255, 194, 204);
+  height: 100px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.hero-container {
+  background-color: rgb(255, 194, 204);
+}
+
+.hero-container img {
+  max-width: 1320px;
+}
