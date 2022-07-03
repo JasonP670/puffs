@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { getData } from './utils';
 import './Home.css';
+import { getData } from './utils';
 
 export default function Home() {
   const [products, setProducts] = useState([]);
